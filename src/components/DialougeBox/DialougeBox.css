@@ -1,0 +1,46 @@
+.DilaougeBox {
+    position: fixed;
+    width: 23rem;
+    height: 23rem;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.DilaougeBox input {
+    width: 90%;
+}
+.DilaougeBox button {
+    margin: 0 0 auto 0;
+}
+.icon-close {
+    cursor: pointer;
+}
+.color-selection {
+    margin: 1em 0;
+}
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.various_color div {
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: red;
+    border-radius: 100%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.various_color {
+    display: flex;
+    margin: 1rem 0;
+    gap: 1rem;
+}

@@ -1,0 +1,40 @@
+.EditBox {
+    width: 18rem;
+    height: 14rem;
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.inner_content h3 {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.inner_content input {
+    padding: 1rem 2rem;
+    width: 75%;
+}
+
+.inner_content button {
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+    border: none;
+    background-color: #D33852;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Save_Changes_btn {
+    color: white !important;
+    background-color: #D33852 !important;
+    border: none !important;
+}

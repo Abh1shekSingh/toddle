@@ -1,0 +1,32 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 2px solid gainsboro;
+}
+
+.Header img {
+    width: 10%;
+}
+
+.Header input {
+    gap: 3rem;
+    font-family: 'Montserrat',sans-serif;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid gainsboro;
+}
+
+.Header button {
+    border: none;
+    background-color: #f75961;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    cursor: pointer;
+}

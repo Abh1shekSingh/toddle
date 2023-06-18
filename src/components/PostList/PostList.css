@@ -1,0 +1,178 @@
+.PostHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: .5rem 2rem;
+}
+
+.PostHeader input {
+    font-family: 'Montserrat', sans-serif;
+    padding: .5rem;
+}
+
+.single_post_card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.content_section {
+    padding: 1rem 2rem;
+    background-color: #f5f5f5;
+}
+.Post_card {
+    border: 1px solid gainsboro;
+    width: 75%;
+    padding: 1rem;
+    transition: 0.5s;
+}
+
+.Post_card:hover {
+    transform: scale(0.98)
+}
+
+.Post_card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Post_card p {
+    margin: 1rem 0rem 2rem 0rem;
+}
+
+.divider {
+    border-bottom: 2px solid gainsboro;
+    width: 90%;
+    margin: 0rem auto;
+}
+
+.heading_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Post_card span {
+    cursor: pointer;
+}
+
+.editBox {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20rem;
+    height:20rem;
+    background-color: red;
+    z-index: 3;
+    padding: 1rem;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.editBox input {
+    padding: 1rem;
+}
+
+.editBox button {
+    padding: 1rem 2rem;
+    border: none;
+    background-color: red;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+}
+
+.create_post_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create_post_button button {
+    padding: 1rem 2rem ;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9rem;
+}
+
+.Publish_menu {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    border: 1px solid gainsboro;
+    padding: 1rem;
+
+}
+
+.menu_heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+}
+
+.Publish_menu p {
+    background-color: red;
+    margin: 0;
+
+}
+
+.dialog_box {
+    padding: 1rem;
+}
+
+.createPostBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.upload_image {
+    /* display: block; */
+    border: 1px solid gainsboro;
+    padding: 0.5rem !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 1em;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+
+
+.saveChangesbtn {
+    background-color: red !important;
+    color: white !important;
+    border: none !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500 !important;
+}
+
+.edit_image {
+    border: 1px solid gainsboro;
+    padding: 0.5rem !important;
+    margin: 1.4rem;
+    display: flex !important;
+    align-items: center !important;
+    gap: 1em;
+}
+
+@media  screen and (max-width:800px) {
+    .single_post_card {
+        grid-template-columns: 1fr 1fr;
+    }
+}
